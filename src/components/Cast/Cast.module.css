@@ -1,0 +1,17 @@
+.castList {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1vw;
+}
+
+.castItem {
+  margin-bottom: 1vh;
+  width: 10vw;
+}
+
+.castImg {
+  width: 100%;
+  height: 12vw;
+}

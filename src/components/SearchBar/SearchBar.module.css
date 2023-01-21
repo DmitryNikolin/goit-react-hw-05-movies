@@ -1,0 +1,30 @@
+.searchForm {
+  margin: auto;
+}
+.searchInput {
+  padding: 1vh 0.5vw;
+  border-radius: 2vh;
+  border: 1px solid tomato;
+  margin-right: 1vw;
+  font-weight: bold;
+  outline: transparent;
+}
+.searchInput:hover {
+  background-color: tomato;
+  color: white;
+}
+
+.searchButton {
+  padding: 1vh 0.5vw;
+  font-weight: bold;
+  margin-bottom: 1vh;
+  border-radius: 2vh;
+  border: 1px solid tomato;
+  box-shadow: 5px 5px 5px 0 rgb(200, 0, 0, 0.3);
+}
+
+.searchButton:hover {
+  cursor: progress;
+  background-color: tomato;
+  color: white;
+}

@@ -1,0 +1,17 @@
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1vh;
+  font-weight: 500;
+  color: black;
+  font-size: 18px;
+}
+
+.link:focus,
+.link:hover {
+  color: yellow;
+}
+
+.link:active {
+  color: tomato;
+}
